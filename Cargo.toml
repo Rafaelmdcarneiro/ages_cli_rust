@@ -1,0 +1,19 @@
+[package]
+name = "ages-cli"
+authors = ["Erik Rogers <ewrogers@gmail.com>"]
+description = "Command-line tool for Sega Mega Drive development"
+repository = "https://github.com/UnderLogic/ages-cli"
+keywords = ["sega", "megadrive", "genesis", "development", "toolkit"]
+categories = ["game-development", "hardware-support", "embedded", "no-std"]
+readme = "README.md"
+license = "MIT"
+version = "0.0.1"
+edition = "2021"
+
+[[bin]]
+name = "ages"
+path = "src/bin/ages.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
